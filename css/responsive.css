@@ -1,0 +1,358 @@
+@media(max-width:767px)
+{
+	/*header
+	{
+		padding: 10px;
+	}*/
+	header .inner-header
+	{
+		margin-top: 30px;
+		margin-left: 0px;
+		
+	}
+	header video
+	{
+		height: 650px;
+		object-fit: cover;
+	}
+	header .menu
+	{
+		padding: 10px;
+	}
+	.section-one-image
+	{
+		height: 100%;
+	}
+	.spaceTop-100
+	{
+		margin-top: 50px;
+	}
+	header .inner-header h2
+	{
+		font-size: 31px;
+	}
+	header .banner-left-cotent
+	{
+		margin-top: 10px;
+	}
+	.section-one .inner-content
+	{
+		padding: 40px;
+		margin-top: 0px;
+		height: 100%;
+	}
+	.section-one img
+	{
+		margin-top: 0px;
+	}
+	.section-one .inner-content h2
+	{
+		width: 100%;
+	}
+	.section-one .inner-content p
+	{
+		width: 100%;
+	}
+	.section-one .inner-content-one .get-started-btn
+	{
+		margin-bottom: 30px;
+		margin-top: 70px;
+	}
+	.section-three .inner-txt h3, .section-three .inner-txt p
+	{
+		text-align: center;
+	}
+	.section-four .inner-content-two img
+	{
+		margin: 0px auto;
+		margin-bottom: 10px;
+	}
+	.section-four .inner-txt h5
+	{
+		text-align: center;
+	}
+	.section-two .services-sect img
+	{
+		margin-left: 40%;
+	}
+
+	.section-two h4
+	{
+		text-align: center;
+	}
+	.section-six
+	{
+		padding: 20px;
+	}
+	.section-one {
+		background-attachment: inherit;
+		background-image: none;
+    	background-color: #f4f8fb;
+	}
+	.section-six .inner-content .team-detail
+	{
+		margin-bottom: 20px;
+	}
+	.section-two h4, .section-two p
+	{
+		text-align: center;
+		width: 100%;
+	}
+	.section-one .inner-content-one p
+	{
+		height: 50px;
+	}
+	.section-two .inner-content p
+	{
+		width: 100%;
+	}
+	.section-two p
+	{
+		margin-bottom: 30px;
+	}
+	.section-four .tab
+	{
+		padding: 30px;
+	}
+	.section-four .tab h2
+	{
+		font-size: 33px;
+	}
+	.section-four .inner-txt
+	{
+		width: 100%;
+		padding-left: 20px;
+	}
+	.section-five .cryptograph
+	{
+		padding: 30px;
+	}
+	.col-md-5th-1
+	{
+		width: 50%;
+	}
+	footer .stay-touch
+	{
+		width: 100%;
+	}
+	footer .submit, footer .submit:hover, footer .submit:active, footer .submit:visited, footer .submit:focus
+	{
+		right: 13px;
+	}
+	footer h6
+	{
+		text-align: center;
+		margin-top: 20px;
+	}
+	footer
+	{
+		padding: 30px;
+	}
+
+	.section-seven
+	{
+		padding: 50px 30px;
+	}
+	.section-four .image
+	{
+		height: auto;
+	}
+	.select-selected:after
+	{
+		right: 0px;
+		margin-right: 14px;
+	}
+	.section-one .inner-content h2
+	{
+		font-size: 24px;
+	}
+
+	
+}
+@media(min-width: 768px) and (max-width: 991px){
+	/*header
+	{
+		background-attachment:  inherit;
+		padding: 50px;
+	}*/
+	header .menu
+	{
+		padding: 50px;
+	}
+	header .inner-header
+	{
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	header .inner-header h2
+	{
+		font-size: 30px;
+	}
+	header .banner-left-cotent
+	{
+		margin-top: 0px;
+	}
+		
+	.section-one .inner-content h2
+	{
+		width: 100%;
+		font-size: 25px;
+	}
+	.section-one .inner-content p
+	{
+		width: 100%;
+		font-size: 12px;
+	}
+	.section-one .inner-content .see-more-btn, .section-one .inner-content .see-more-btn:focus
+	{
+		margin-top: 0px;
+	}
+	.section-one .inner-content-one .get-started-btn
+	{
+		margin-bottom: 10px;
+		margin-top: 75px;
+	}
+	.section-one {
+		background-attachment: inherit;
+		background-image: none;
+    	background-color: #f4f8fb;
+	}
+	.section-two .inner-content p
+	{
+		width: 100%;
+	}
+	.section-two p
+	{
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	.section-four .tab
+	{
+		padding: 30px;
+	}
+	.section-four .tab h2
+	{
+		font-size: 33px;
+	}
+	.section-four .inner-txt
+	{
+		width: 100%;
+		padding-left: 20px;
+	}
+	.section-five .cryptograph
+	{
+		padding: 30px;
+	}
+	footer
+	{
+		padding: 30px;
+	}
+	.container
+	{
+		width: 100%;
+	}
+	footer .submit, footer .submit:hover, footer .submit:active, footer .submit:visited, footer .submit:focus
+	{
+		right: 113px;
+	}
+	.section-one .inner-content
+	{
+		padding: 30px;
+		height: auto;
+	}
+	.section-four .image
+	{
+		height: auto;
+	}
+	.section-one-image
+	{
+		height: auto
+	}
+
+}
+@media(min-width: 992px) and (max-width: 1199px)
+{
+	/*header
+	{
+		background-attachment:  inherit;
+		padding: 50px;
+	}*/
+	header .menu
+	{
+		padding: 50px;
+	}
+	header .inner-header
+	{
+		margin-top: 70px;
+		margin-left: 0px;
+	}
+	.section-one 
+	{
+		background-attachment: inherit;
+		background-image: none;
+    	background-color: #f4f8fb;
+
+	}
+	.section-one .inner-content {
+	    max-width: 800px;
+	    padding: 100px 50px 50px;
+	    height: auto;
+	}
+	.section-four .image
+	{
+		height: auto
+	}
+	.section-one-image
+	{
+		height: auto
+	}
+	.section-one .inner-content-one .get-started-btn
+	{
+		margin-bottom: 50px;
+	}
+	.section-four .tab
+	{
+		padding: 30px 50px 30px 26px;
+	}
+	.section-four .inner-txt {
+	    width: 110%;
+	    padding: 30px;
+	    background-color: white;
+	    padding-left: 62px;
+	    padding-top: 30px;
+	}
+	.section-five .cryptograph {
+	    background-color: #232831;
+	    padding: 50px 50px 50px 38px;
+	}
+	footer .submit, footer .submit:hover, footer .submit:active, footer .submit:visited, footer .submit:focus
+	{
+		right: 140px;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1399px)
+{
+	/*header
+	{
+		padding-bottom: 100px;
+	}*/
+	.section-one .inner-content
+	{
+		height: auto;
+	}
+	.section-one-image
+	{
+		height: 47vh;
+	}
+	.section-one 
+	{
+		background-attachment: inherit;
+		background-image: none;
+    	background-color: #f4f8fb;
+
+	}
+	.section-four .image
+	{
+		height: auto
+	}
+}
