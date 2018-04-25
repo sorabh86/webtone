@@ -747,7 +747,7 @@ border: none;
 }
 
 .nav li:hover:nth-child(8n+1), .nav li.active:nth-child(8n+1){
-  border-bottom: #C4E17F 3px solid;
+  border-bottom: #481624 3px solid;
 }
 .nav li:hover:nth-child(8n+2), .nav li.active:nth-child(8n+2){
   border-bottom: #F7FDCA 3px solid;
@@ -769,6 +769,9 @@ border: none;
 }
 .nav li:hover:nth-child(8n+8), .nav li.active:nth-child(8n+8){
   border-bottom: #62C2E4 3px solid;
+}
+#navbar{
+
 }
 
 .navbar-toggle .icon-bar{
