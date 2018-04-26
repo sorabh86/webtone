@@ -826,6 +826,15 @@ footer h6
 	text-align: right;
 	margin-top: 80px;
 }
+.colored1 {
+    color: #d04e52;
+}
+.colored2 {
+    color: #def019;
+}
+.colored {
+    font-size: 100px;
+}
 
 
 
