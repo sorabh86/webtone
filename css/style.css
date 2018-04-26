@@ -572,10 +572,10 @@ header .banner-left-cotent .btn-economic, header .banner-left-cotent .btn-econom
 }
 .section-six .inner-content .team-detail h4
 {
-	font-size: 12px;
-	color: #6c9ce0;
-	text-align: center;
-	line-height: 2;
+	font-size: 16px;
+    color: #92a209;
+    text-align: center;
+    line-height: 0;
 }
  .col-md-5th-1{
  	width: 20%;
