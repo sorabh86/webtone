@@ -920,3 +920,8 @@ service-3 .service-box .y-us-content h4 {
 {
 	margin-top: 100px;
 }
+
+a.navbar-brand {
+	position: relative;
+    top: -20px;
+}
