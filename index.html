@@ -20,8 +20,9 @@
 				<video width="100%" autoplay loop>
 				  <source src="video/header.mp4" type="video/mp4">
 				  <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
-				  Your browser does not support HTML5 video				</video>
-			</div>
+				  <img src="images/fallback-banner.jpg" alt="Your browser does not support IMAGES">					
+				</video>
+				</div>
 			<div class="container-fluid menu">
 
         <div class="navbar-wrapper">
@@ -531,32 +532,34 @@ We have provided best plus affordable software development services to numerous 
 	</div>
 
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" -->
+    crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/jquery-ui.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/custom.js"></script>
 	<script src="js/fadeInScroll.jQuery.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script>
-		$(document).ready(function(){
-			// $("#token-btn, #economic-btn").hide();
-			// $("#token-btn").delay(1000).toggle("slide", {direction: 'left'});
-			// $("#economic-btn").delay(1500).toggle("slide", {direction: 'left'});
-			// $("#token-btn").css("width", "20px");
-			// var spanWidth = $('.txt-expand span').width();
-			// $('.txt-expand').animate( { width: spanWidth }, 4000 );
-			
-			var spanWidth = $('.btn-token span').width();
-			$('.btn-token').animate( { width: spanWidth }, 500 );
-			var spanWidth = $('.btn-economic span').width();
-			$('.btn-economic').delay(400).animate( { width: spanWidth }, 500 );
-
-		})
-		$(function(){
-			$('.fadeIn').fadeInScroll();
-		});
+		(function($){
+			$(document).ready(function(){
+				// $("#token-btn, #economic-btn").hide();
+				// $("#token-btn").delay(1000).toggle("slide", {direction: 'left'});
+				// $("#economic-btn").delay(1500).toggle("slide", {direction: 'left'});
+				// $("#token-btn").css("width", "20px");
+				// var spanWidth = $('.txt-expand span').width();
+				// $('.txt-expand').animate( { width: spanWidth }, 4000 );
+				
+				var spanWidth = $('.btn-token span').width();
+				$('.btn-token').animate( { width: spanWidth }, 500 );
+				var spanWidth = $('.btn-economic span').width();
+				$('.btn-economic').delay(400).animate( { width: spanWidth }, 500 );
+				
+				// $('.fadeIn').fadeInScroll();
+			});
+		})(jQuery);
 	</script>
 </body>
 
