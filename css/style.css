@@ -726,7 +726,7 @@ body{
     background: #8999A8;
 }
 .navbar, .dropdown-menu{
-background:rgba(255,255,255,0.25);
+background:#0d183ad1;
 border: none;
 
 }
@@ -893,6 +893,22 @@ service-3 .service-box .y-us-content h4 {
     font-weight: 300;
     line-height: 24px;
 }
+
+#expertcodedesign {
+								color:#777;
+							}
+							#expertcodedesign strong {
+								display: block;
+								margin-bottom: 15px;
+							}
+							#expertcodedesign .color-yelois {
+								color:#e1c79b;
+							}
+							#expertcodedesign .fa {
+								font-size: 20px;
+								color:#ccc;
+								margin-right: 10px;
+							}
 
 .icon {
     color : #f4b841;
