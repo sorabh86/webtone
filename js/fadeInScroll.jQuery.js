@@ -4,15 +4,11 @@
     	
     	// VARIABLES ------------------------------------
     	var elements = $(this);
-    	
- 
         
         // SETTINGS ------------------------------------
         var settings = $.extend({
 	        minDistance: 	75 * $(window).height() / 100   //Distance between the browser top scroll and the next element
         }, options );
-        
-        
         
         // MAIN ------------------------------------
     	// Add sFade classes
@@ -23,12 +19,8 @@
 		// Check the position of all the elemnents.
 		CheckFades();
         
-        
-        
 		// FUNCTIONS ------------------------------------
 		function CheckFades(){
-			
-		
 			//Get the top of the browser
 			vWindowScrollTop = $(window).scrollTop();
 		
@@ -39,8 +31,6 @@
 			    }
 		    });
 		}
-		
-		
 
         // EVENTS ------------------------------------
         $(window).scroll(function() {
